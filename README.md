@@ -15,7 +15,6 @@ Pythonの場合:
 
 ```python
 import numpy as np
-import csv
 
 data = np.loadtxt("inagaki_ch11_1.csv", delimiter=",", skiprows=1)
 print(data)
